@@ -58,33 +58,36 @@ arrowUp.addEventListener('click', () => {
 // Projects
 const workBtnContainer = document.querySelector('.work__categories');
 const projectContainer = document.querySelector('.work__projects');
-const projects = document.querySelector('.project');
+const projects = document.querySelectorAll('.project');
 workBtnContainer.addEventListener('click', (e) => {
   const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
   if (filter == null) {
     return;
   };
+  projectContainer.classList.add('anim-out');
+  setTimeout(() => {
+    projects.forEach((project) => {
+      console.log(project.dataset.type);
+      if (filter === '*' || filter === project.dataset.type) {
+        project.classList.remove('invisible');
+      } else {
+        project.classList.add('invisible');
+      };
+    });
+    projectContainer.classList.remove('anim-out');
+  }, 300);
 
-  console.log(filter);
-  projects.forEach((project) => {
-    console.log(project.dataset.type);
-    if (filter === '*' || filter === project.dataset.type) {
-      project.classList.remove('invisible');
-    } else {
-      project.classList.add('invisible');
-    };
-  });
 
   // console.log(`--------`)
   // for (let project of projects) {
   //   console.log(project);
   // };
 
-  console.log(`--------`)
-  for (let i = 0; i < projects.length; i++) {
-    project = projects[i];
-    console.log(project);
-  };
+  // console.log(`--------`)
+  // for (let i = 0; i < projects.length; i++) {
+  //   project = projects[i];
+  //   console.log(project);
+  // };
 });
 
 function scrollIntoView(selector) {
