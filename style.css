@@ -531,8 +531,8 @@ p {
 
   .navbar__toggle-btn {
     display: block;
-    top: 18px;
-    right: 32px;
+    top: 12px;
+    right: 18px;
     font-size: var(--font-large);
   }
 
@@ -543,7 +543,7 @@ p {
   }
 
   #navbar.navbar--dark {
-    padding: 16px;
+    padding: 0px;
   }
 
   .navbar__menu {
