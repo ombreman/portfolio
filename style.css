@@ -4,7 +4,7 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
+  --color-pink: #b76fe0;
   --color-dark-pink: #ff6863;
   --color-black: #4d4d4d;
   --color-dark-grey: #4d4d4d;
@@ -105,7 +105,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 8px 10px 8px 10px;
   background-color: transparent;
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
@@ -113,12 +113,13 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-pink);
-  padding: 8px;
+  padding: 6px 10px 6px 10px;
 }
 
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  padding: 14px;
   color: white;
 }
 
@@ -151,7 +152,8 @@ p {
 
 /* Home */
 #home {
-  background: url('imgs/home-background.png') center/cover no-repeat;
+  background: url('imgs/Pink\ and\ Purple\ Gradient\ Futuristic\ Neon\ Survival\ YouTube\ Channel\ Art.png')
+    center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -197,7 +199,7 @@ p {
 /* About */
 .about__majors {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 80px 0;
 }
 
