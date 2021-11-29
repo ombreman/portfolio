@@ -505,7 +505,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-light-purple);
+  background-color: var(--color-dark-purple);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
@@ -530,7 +530,7 @@ p {
 
   .navbar__toggle-btn {
     display: block;
-    top: 28px;
+    top: 18px;
     right: 32px;
     font-size: var(--font-large);
   }
