@@ -291,6 +291,7 @@ p {
 .skill__description {
   display: flex;
   justify-content: space-between;
+  margin: ;
 }
 
 .skill__bar {
