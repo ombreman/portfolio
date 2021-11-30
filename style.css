@@ -280,6 +280,7 @@ p {
 .skillset__title {
   color: var(--color-white);
   font-size: var(--font-medium);
+  text-decoration: var(--color-dark-white) underline;
 }
 .skillset__left {
   flex-basis: 60%;
@@ -305,7 +306,7 @@ p {
 
 .skill__value {
   height: 3px;
-  background-color: var(--color-orange);
+  background-color: var(--color-dark-purple);
 }
 
 .skillset__right {
