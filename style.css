@@ -480,6 +480,13 @@ p {
 /* Contact */
 #contact {
   background-color: var(--color-light-purple);
+  background: rgb(189, 100, 215);
+  background: radial-gradient(
+    circle,
+    rgba(189, 100, 215, 1) 55%,
+    rgba(120, 185, 191, 1) 100%,
+    rgba(62, 207, 236, 1) 100%
+  );
 }
 
 .contact__title,
