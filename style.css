@@ -431,7 +431,7 @@ p {
   display: block;
   position: relative;
   left: 50%;
-  width: 100px;
+  width: 200px;
   height: 2px;
   transform: translateX(-50%);
   margin-top: 8px;
