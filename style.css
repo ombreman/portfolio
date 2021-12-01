@@ -386,6 +386,7 @@ p {
   width: 280px;
   height: 250px;
   margin: 2px;
+  padding: 10px;
   background-color: var(--color-light-white);
 }
 
