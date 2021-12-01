@@ -383,7 +383,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
+  width: 400px;
   height: 250px;
   margin: 2px;
   padding: 10px;
@@ -402,6 +402,7 @@ p {
 
 .project__description {
   position: absolute;
+  padding: 24px;
   background-color: black;
   display: flex;
   flex-direction: column;
