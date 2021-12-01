@@ -403,7 +403,7 @@ p {
 .project__description {
   position: absolute;
   padding: 24px;
-  background-color: black;
+  background-color: var(--color-dark-grey);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -417,7 +417,7 @@ p {
 }
 
 .project:hover .project__description {
-  opacity: 0.8;
+  opacity: 1;
   transform: translateY(0px);
 }
 
@@ -430,7 +430,7 @@ p {
   display: block;
   position: relative;
   left: 50%;
-  width: 50px;
+  width: 100px;
   height: 2px;
   transform: translateX(-50%);
   margin-top: 8px;
