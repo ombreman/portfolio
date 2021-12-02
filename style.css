@@ -550,7 +550,7 @@ p {
 
   .navbar__toggle-btn {
     display: block;
-    top: 12px;
+    top: 18px;
     right: 18px;
     font-size: var(--font-large);
   }
