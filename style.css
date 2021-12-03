@@ -133,6 +133,10 @@ p {
   display: flex;
 }
 
+.navbar__toggle__menu {
+  width: 100%;
+}
+
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
