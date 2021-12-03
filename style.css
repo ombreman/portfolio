@@ -116,6 +116,12 @@ p {
   padding: 0px 10px 0px 10px;
 }
 
+#toggle_btn.navbar__toggle-btn--dark {
+  font-size: 18px;
+  transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
+}
+
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
@@ -549,10 +555,10 @@ p {
   }
 
   .navbar__toggle-btn {
-    display: block;
     top: 18px;
     right: 18px;
     font-size: var(--font-large);
+    display: block;
   }
 
   #navbar {

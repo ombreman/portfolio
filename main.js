@@ -7,8 +7,10 @@ const navbarHeight = navbar.getBoundingClientRect().height;
 document.addEventListener('scroll', () => {
   if (window.scrollY > navbarHeight) {
     navbar.classList.add(`navbar--dark`);
+    toggle_btn.classList.add(`navbar__toggle-btn--dark`)
   } else {
     navbar.classList.remove(`navbar--dark`);
+    toggle_btn.classList.remove(`navbar__toggle-btn--dark`)
   }
 });
 
