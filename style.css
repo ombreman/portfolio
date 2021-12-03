@@ -125,12 +125,14 @@ p {
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  width: 400px;
   padding: 14px;
   color: white;
 }
 
 .navbar__menu {
   display: flex;
+  justify-content: right;
 }
 
 .navbar__toggle__menu {
