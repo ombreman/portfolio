@@ -480,6 +480,7 @@ p {
 
 .testimonial__speech-bubble {
   padding: 18px;
+  width: 750px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
 }
